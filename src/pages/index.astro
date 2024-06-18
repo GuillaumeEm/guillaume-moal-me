@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../lib/createSlug"
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">Bonjour 👋</div>
+    <div class="text-5xl font-bold">Je suis Guillaume Moal</div>
+    <div class="text-3xl py-3 font-bold">Freelance DevOps & Software Engineer</div>
+    <div class="py-2">
+      <text class="text-lg">
+        J'accompagne les entreprises en créant des solutions logicielles sur mesure, en optimisant leur utilisation du cloud et en améliorant leur expérience développeur <br>
+        Fort de 8 années d'expériences diverses, je cherche de nouveaux projets sur lesquels collaborer en tant qu'indépendant
+      </text>
+    </div>
+    <div class="mt-8">
+      <a class="btn" href="mailto:contact-gme@1gem.dev" target="_blank" >
+        Me contacter
+      </a>
+      <!-- <a class="btn btn-outline ml-5" href="https://www.malt.fr/profile/guillaumemoal" target="_blank"> Voir mon profil Malt</a> -->
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">Mes derniers projets {"</>"}</div>
+  </div>
+
+  <HorizontalCard
+    title="Docamate"
+    img="/post_img.webp"
+    desc="Docamate est votre assistant dédié pour l'analyse et l'audit de votre documentation, permettant à vos équipes d'améliorer continuellement la qualité de cette dernière"
+    url="https://docamate.com"
+    badge=""
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Change-log.cloud"
+    img="/post_img.webp"
+    desc="Aggrégateur de news des différents providers cloud, résumé technique des derniers changements et suivi de l'impact sur les ressources actuelles ou possibles"
+    url="https://change-log.cloud/"
+    badge=""
+  />
+</BaseLayout>

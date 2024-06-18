@@ -1,0 +1,147 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profil</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    J’aide les entreprises à regagner confiance dans leurs développements et
+    déploiements.<br />
+    Autodidacte passionné avec 8 ans d’expérience professionnelle sur de nombreux
+    rôles systèmes et back-end, j’ai su me montrer disponible auprès de mes pairs
+    pour les assister et surmonter les difficultés ensemble.<br />
+    Avec des expériences majoritairement sur des sites et applications web, je suis
+    particulièrement engagé sur les problématiques de performance, sécurité, confidentialité
+    et conformité pour l’utilisateur final.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Expérience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Matawan Services, Software Engineer sur le produit WanReport"
+      subtitle="De Mars 2023 à Octobre 2023, Valbonne, France"
+    >
+      Produit de suivi d’assets urbains et de qualité de service pour les régies
+      de transport bus.<br />
+      Équipe Scrum de 4 backend, contexte dynamique avec un nombre important de demandes
+      de développements et la volonté de garder le minimum de dette technique.<br
+      />
+      Contexte technique avec PHP, Symfony, AWS, AWS Lambda, Docker, Terraform, Gitlab
+      CI/CD.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Harvest Group, Software Engineer sur le produit O2S"
+      subtitle="De Novembre 2022 à Mars 2023, Valbonne, France"
+    >
+      CRM Patrimonial permettant un suivi et analyse de patrimoine, données
+      agrégé de toutes sources, accent mis sur la conformité.<br />
+      Équipe Scrum d’une dizaine de personnes sur la partie CRM du produit leader,
+      forte pression des obligations de nouvelles règles de conformité, de fonctionnalités
+      désirés par les conseillers et des besoins de re-factorisation.<br />
+      Contexte technique avec PHP, Docker, K8S, ArgoCD, Terraform, Gitlab CI/CD.
+    </TimeLineElement>
+    <TimeLineElement
+      title="xo7, Développeur Back-end PHP, produits multiples"
+      subtitle="De Septembre 2016 à Novembre 2022, Paris & Antibes, France"
+    >
+      Agence Web, éditrice d’une solution CMS/DXP (Digital eXperience Platform)
+      multi-langue, multi-site vendu en marque blanche dont un géant de
+      l’industrie hôtelière.<br />
+      Embauché en tant que junior au sein de l’agence, montée en compétences puis
+      passage en autonomie sur les projets agence tout en restant actif sur le développement
+      du CMS.<br />
+      Contexte technique avec PHP, AWS, AWS Cloudfront w/ Lambda@edge, CloudFlare,
+      Docker, Gitlab CI/CD.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Terraform Associate (003)"
+      subtitle="HashiCorp Certified - Avril 2024"
+    >
+      <a
+        class="btn"
+        href="https://www.credly.com/badges/6eb9439d-b194-428f-beaf-db654bd8f3ec"
+        target="_blank"
+        >Badge Credly
+      </a>
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="SysOps Administrator – Associate"
+      subtitle="AWS Certified - Mai 2024"
+    >
+      <a
+        class="btn"
+        href="https://www.credly.com/badges/2ce0bc37-8087-4df8-9e69-850b5c3fc1bf"
+        target="_blank">Badge Credly</a
+      >
+    </TimeLineElement>
+    <TimeLineElement
+      title="DevOps Engineer - Professionnal"
+      subtitle="AWS Certified"
+    >
+      <a class="btn" href="#" target="_blank" disabled> En cours d'obtention</a>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Éducation</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="BTS Systèmes Electroniques"
+      subtitle="2011-2013 , EME, Marseille"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Compétences</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 md:columns-5 columns-2">
+    <li>Linux</li>
+    <li>AWS</li>
+    <li>CloudFlare</li>
+    <li>Terraform</li>
+    <li>Pulumi</li>
+    <li>Ansible</li>
+    <li>Docker</li>
+    <li>Kubernetes</li>
+    <li>GitLab CI/CD</li>
+    <li>Grafana & others</li>
+    <li>GitHub Actions</li>
+    <li>SQL</li>
+    <li>PHP</li>
+    <li>Python</li>
+    <li>JavaScript</li>
+    <li>Bash</li>
+    <li>Symfony</li>
+    <li>Laravel</li>
+    <li>FastAPI</li>
+    <li>Rust</li>
+  </ul>
+
+  <div class="mb-5">
+    <a
+      class="btn"
+      href="mailto:contact-gme@1gem.dev?subject=CV Guillaume Moal - Obtenir le dossier de compétences"
+      target="_blank"
+    >
+      Obtenir le dossier de compétences complet au format PDF
+    </a>
+  </div>
+</BaseLayout>

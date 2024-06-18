@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="services">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Services</div>
+  </div>
+
+  <HorizontalCard
+    title="Consultant DevOps"
+    img="/devops.jpg"
+    desc="Ajoutez rapidement à vos effectifs un DevOps capable de travailler sur le Build comme sur les migrations Cloud "
+    url=""
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Consultant Backend"
+    img="/code.jpg"
+    desc="Disponible sur vos projets PHP, Symfony, Laravel, Python, FastAPI, Rust et autres en tant que développeur dans vos équipes"
+    url=""
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Consultant Administration Systèmes Linux "
+    img="/linux.jpg"
+    desc="Faites appel à un expert avec 10 années d'expériences sur tout système Linux pour maintenir, sécuriser et infogérer votre infrastructure"
+    url=""
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Développement Logiciel sur mesure"
+    img="/appcrea.jpg"
+    desc="Passons votre business à la vitesse supérieure ensembles avec la création de votre prochaine application web"
+    url=""
+  />
+</BaseLayout>
