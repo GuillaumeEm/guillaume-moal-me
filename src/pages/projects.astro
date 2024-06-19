@@ -1,11 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import { SITE_TITLE } from "../config";
+const title = "Projets - " + SITE_TITLE;
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title={title} sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects</div>
+    <h1 class="text-3xl w-full font-bold mb-5">Projets</h1>
   </div>
   <HorizontalCard
     title="Docamate"
