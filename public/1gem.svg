@@ -1,0 +1,18 @@
+<svg width="58" xmlns="http://www.w3.org/2000/svg" height="93" viewBox="-4 -1.5 58 93" style="-webkit-print-color-adjust:exact" fill="none">
+  <path d="M50 24.545C50 11.591 39.229 0 22.789 0H0l.183 77.045C.183 83.864 4.895 90 14.993 90H50V24.545ZM50 84.6 45.238 90" style="fill:#fff;fill-opacity:0" fill="none" class="fills"/>
+  <g class="strokes">
+    <path d="M50 24.545C50 11.591 39.229 0 22.789 0H0l.183 77.045C.183 83.864 4.895 90 14.993 90H50V24.545ZM50 84.6 45.238 90" style="fill:none;stroke-width:3;stroke:#60a3e6;stroke-opacity:1" class="stroke-shape"/>
+  </g>
+  <path d="M25 66h3c1 0 11-11 11-11V35l-1-1 1 1-5 5v12l-9 9v5Z" style="fill:#409980;fill-opacity:1" class="fills"/>
+  <g class="strokes">
+    <path d="M25 66h3c1 0 11-11 11-11V35l-1-1 1 1-5 5v12l-9 9v5Z" style="fill:none;stroke-width:.1;stroke:#5f91cc;stroke-opacity:1" class="stroke-shape"/>
+  </g>
+  <path d="m11 35 5 5v-2l9-9 9 9v2l5-5-11-11h-6L11 35Z" style="fill:#60e6bf;fill-opacity:1" class="fills"/>
+  <g class="strokes">
+    <path d="m11 35 5 5v-2l9-9 9 9v2l5-5-11-11h-6L11 35Z" style="fill:none;stroke-width:.1;stroke:#5f91cc;stroke-opacity:1" class="stroke-shape"/>
+  </g>
+  <path d="M25 61v5h-3c-1 0-11-11-11-11V35l1-1-1 1 5 5v12l9 9Z" style="fill:#5ca;fill-opacity:1" class="fills"/>
+  <g class="strokes">
+    <path d="M25 61v5h-3c-1 0-11-11-11-11V35l1-1-1 1 5 5v12l9 9Z" style="fill:none;stroke-width:.1;stroke:#5f91cc;stroke-opacity:1" class="stroke-shape"/>
+  </g>
+</svg>

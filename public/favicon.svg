@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
-</svg>
+<svg width="50" xmlns="http://www.w3.org/2000/svg" height="90" fill="none"><g class="fills"><rect rx="0" ry="0" width="50" height="90" transform="matrix(-1 0 0 1 50 0)" class="frame-background"/></g><g class="frame-children"><path d="M25 66h3c1 0 11-11 11-11V35l-1-1 1 1-5 5v12l-9 9v5Z" style="fill: rgb(64, 153, 128); fill-opacity: 1;" class="fills"/><g class="strokes"><path d="M25 66h3c1 0 11-11 11-11V35l-1-1 1 1-5 5v12l-9 9v5Z" style="fill: none; stroke-width: 0.1; stroke: rgb(95, 145, 204); stroke-opacity: 1;" class="stroke-shape"/></g><path d="m11 35 5 5v-2l9-9 9 9v2l5-5-11-11h-6L11 35Z" style="fill: rgb(96, 230, 191); fill-opacity: 1;" class="fills"/><g class="strokes"><path d="m11 35 5 5v-2l9-9 9 9v2l5-5-11-11h-6L11 35Z" style="fill: none; stroke-width: 0.1; stroke: rgb(95, 145, 204); stroke-opacity: 1;" class="stroke-shape"/></g><path d="M25 61v5h-3c-1 0-11-11-11-11V35l1-1-1 1 5 5v12l9 9Z" style="fill: rgb(85, 204, 170); fill-opacity: 1;" class="fills"/><g class="strokes"><path d="M25 61v5h-3c-1 0-11-11-11-11V35l1-1-1 1 5 5v12l9 9Z" style="fill: none; stroke-width: 0.1; stroke: rgb(95, 145, 204); stroke-opacity: 1;" class="stroke-shape"/></g></g></svg>
